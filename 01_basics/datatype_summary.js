@@ -25,3 +25,23 @@ const myFunction=function(){
 //data types 
 //https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html
 
+//---------*Stack and heap memory*--------
+//stack(primitive) and heap(non-primitive)
+
+let myCity="madrid"
+
+let anotherCity=myCity
+anotherCity="amsterdam"
+
+// console.log(myCity)
+// console.log(anotherCity)
+
+let userOne={
+    email:"shalini@barclays.com",
+    upi:"shalini@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="shalini@apple.com"
+console.log(userOne.email)
+console.log(userTwo.email)
