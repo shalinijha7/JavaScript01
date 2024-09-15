@@ -21,3 +21,7 @@ let myObj={
 const myFunction=function(){
     console.log("Hello world")
 }
+
+//data types 
+//https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html
+
